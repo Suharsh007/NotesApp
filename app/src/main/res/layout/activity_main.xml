@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="40dp"
+
+        android:gravity="center_horizontal"
+        android:text="Notes App"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="173dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnNext"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="298dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:onClick="handleLoginRegister"
+        android:text="Login\Register" />
+
+
+</LinearLayout>

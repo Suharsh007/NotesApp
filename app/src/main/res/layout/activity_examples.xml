@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Examples">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="createDocument"
+        android:text="Create Document" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="readDocument"
+        android:text="Read Document" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="updateDocument"
+        android:text="Update Document" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="deleteDocument"
+        android:text="Delete Document" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getAllDocuments"
+        android:text="Get Documents" />
+    <Button
+    android:id="@+id/button6"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="getAllDocumentsWithRealtimeUpdate"
+    android:text="Get a list of all Documents with real time updates" />
+
+
+</LinearLayout>
